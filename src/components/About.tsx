@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Award, BookOpen, Coffee, Heart } from 'lucide-react';
 
 const stats = [
