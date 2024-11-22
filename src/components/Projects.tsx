@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
 type ProjectCategory = 'All' | 'Websites' | 'Applications' | 'Mobile';

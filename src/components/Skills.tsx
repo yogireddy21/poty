@@ -60,7 +60,7 @@ export default function Skills() {
                     animationDelay: `${index * 100 + 500}ms`,
                   }}
                 />
-                <style jsx>{`
+                <style >{`
                   @keyframes growWidth {
                     from { width: 0% }
                     to { width: ${skill.level}% }

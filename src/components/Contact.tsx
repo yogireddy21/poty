@@ -14,6 +14,9 @@ export default function Contact() {
     // Here you would typically handle the form submission
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
+    setFormState({name: '',
+      email: '',
+      message: ''})
   };
 
   return (
@@ -73,7 +76,7 @@ export default function Contact() {
               />
               <label
                 htmlFor="name"
-                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-7 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-7 peer-focus:text-purple-600"
+                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-8 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-8 peer-focus:text-purple-600"
               >
                 Your Name
               </label>
@@ -91,7 +94,7 @@ export default function Contact() {
               />
               <label
                 htmlFor="email"
-                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-7 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-7 peer-focus:text-purple-600"
+                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-8 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-8 peer-focus:text-purple-600"
               >
                 Your Email
               </label>
@@ -108,7 +111,7 @@ export default function Contact() {
               />
               <label
                 htmlFor="message"
-                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-7 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-7 peer-focus:text-purple-600"
+                className="absolute left-4 top-3 text-gray-500 transition-all duration-200 -translate-y-8 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-8 peer-focus:text-purple-600"
               >
                 Your Message
               </label>

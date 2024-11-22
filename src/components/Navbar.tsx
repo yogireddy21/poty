@@ -1,10 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import { useTheme } from './ThemeContext';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50 transition-colors duration-300">
