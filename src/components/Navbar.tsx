@@ -18,8 +18,9 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="nav-link">Home</a>
             <a href="#projects" className="nav-link">Projects</a>
-            <a href="#skills" className="nav-link">Skills</a>
             <a href="#profiles" className="nav-link">Coding Profiles</a>
+            <a href="#skills" className="nav-link">Skills</a>
+            
             <a href="#about" className="nav-link">About</a>
             <a href="#contact" className="nav-link">Contact</a>
 
