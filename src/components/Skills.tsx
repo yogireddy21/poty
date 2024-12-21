@@ -4,10 +4,8 @@ import {
   Database,
   Layout,
   Server,
-  Smartphone,
   GitBranch,
-  BrainCircuit,
-
+  BrainCircuit
 } from 'lucide-react';
 
 interface Skill {
@@ -18,13 +16,23 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'Frontend Development', icon: <Layout />, level: 90, category: 'Development' },
-  { name: 'Backend Development', icon: <Server />, level: 85, category: 'Development' },
-  { name: 'Database Management', icon: <Database />, level: 85, category: 'Development' },
-  { name: 'Operating Systems', icon: <Smartphone />, level: 80, category: 'Development' },
-  { name: 'Version Control', icon: <GitBranch />, level: 95, category: 'Tools' },
-  { name: 'Machine Learning', icon: <BrainCircuit />, level: 80, category: 'Development' },
-  { name: 'Problem Solving', icon: <Code2 />, level: 90, category: 'Soft Skills' }
+  { name: 'C, C++, Java (Basic), Python, MySQL', icon: <Code2 />, level: 90, category: 'Languages' },
+  { name: 'Data Structures and Algorithms', icon: <Code2 />, level: 95, category: 'Core Concepts' },
+  { name: 'Object-Oriented Programming (OOP)', icon: <Layout />, level: 85, category: 'Core Concepts' },
+  { name: 'Operating Systems', icon: <Server />, level: 85, category: 'Core Concepts' },
+  { name: 'Database Management Systems (DBMS)', icon: <Database />, level: 85, category: 'Core Concepts' },
+  { name: 'Networks', icon: <Server />, level: 80, category: 'Core Concepts' },
+  { name: 'Machine Learning', icon: <BrainCircuit />, level: 80, category: 'Core Concepts' },
+  { name: 'HTML', icon: <Layout />, level: 85, category: 'Tools & Technologies' },
+  { name: 'CSS', icon: <Layout />, level: 85, category: 'Tools & Technologies' },
+  { name: 'Java Script', icon: <Code2 />, level: 85, category: 'Tools & Technologies' },
+  { name: 'React.js', icon: <Code2 />, level: 85, category: 'Tools & Technologies' },
+  { name: 'Node.js', icon: <Code2 />, level: 80, category: 'Tools & Technologies' },
+  { name: 'Express.js', icon: <Code2 />, level: 80, category: 'Tools & Technologies' },
+  { name: 'Git', icon: <GitBranch />, level: 85, category: 'Tools & Technologies' },
+  { name: 'REST API', icon: <Code2 />, level: 80, category: 'Tools & Technologies' },
+  { name: 'NoSQL', icon: <Database />, level: 85, category: 'Tools & Technologies' },
+  { name: 'AWS', icon: <Server />, level: 75, category: 'Tools & Technologies' }
 ];
 
 export default function Skills() {
@@ -53,13 +61,15 @@ export default function Skills() {
               <div className="relative h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                 <div
                   className="absolute top-0 left-0 h-full bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transition-all duration-1000 ease-out"
-                  style={{
-                    width: '0%',
-                    animation: 'growWidth 1.5s ease-out forwards',
-                    animationDelay: `${index * 100 + 500}ms`,
-                  }}
+                  style={
+                    {
+                      width: '0%',
+                      animation: 'growWidth 1.5s ease-out forwards',
+                      animationDelay: `${index * 100 + 500}ms`,
+                    }
+                  }
                 />
-                <style >{`
+                <style>{`
                   @keyframes growWidth {
                     from { width: 0% }
                     to { width: ${skill.level}% }

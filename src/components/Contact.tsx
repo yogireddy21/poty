@@ -41,9 +41,9 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: <Mail />, label: 'Email', value: 'contact@example.com' },
-                { icon: <Phone />, label: 'Phone', value: '+1 (555) 123-4567' },
-                { icon: <MapPin />, label: 'Location', value: 'San Francisco, CA' },
+                { icon: <Mail />, label: 'Email', value: 'yogeswarreddyrachamallu@gmail.com' },
+                { icon: <Phone />, label: 'Phone', value: '+91 8985339094' },
+                { icon: <MapPin />, label: 'Location', value: 'Hyderabad, Telangana' },
               ].map((item, index) => (
                 <div
                   key={item.label}
