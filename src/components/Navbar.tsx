@@ -19,8 +19,10 @@ export default function Navbar() {
             <a href="#home" className="nav-link">Home</a>
             <a href="#projects" className="nav-link">Projects</a>
             <a href="#skills" className="nav-link">Skills</a>
+            <a href="#profiles" className="nav-link">Coding Profiles</a>
             <a href="#about" className="nav-link">About</a>
             <a href="#contact" className="nav-link">Contact</a>
+
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"

@@ -1,4 +1,5 @@
 import { Github, Linkedin, FileText } from 'lucide-react';
+import imgg from './selfpic.jpg';
 
 export default function Hero() {
   return (
@@ -7,7 +8,7 @@ export default function Hero() {
         <div className="lg:w-1/2 lg:pr-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Hi, I'm Vikash Kumar
+              Hi, I'm Yogeswar Reddy
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-300">
@@ -21,20 +22,20 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1Oamz0s21g6exB0KL2FonFY1_13I7CIvu/view?usp=drive_link"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
               Download CV
             </a>
           </div>
           <div className="flex gap-4">
-            <a href="https://github.com" className="social-link">
+            <a href="https://github.com/yogireddy21" className="social-link">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com" className="social-link">
+            <a href="https://www.linkedin.com/in/yogeswar-reddy-rachamallu-97550826b/" className="social-link">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="/resume.pdf" className="social-link">
+            <a href="https://drive.google.com/file/d/1Oamz0s21g6exB0KL2FonFY1_13I7CIvu/view?usp=drive_link" className="social-link">
               <FileText className="w-6 h-6" />
             </a>
           </div>
@@ -43,7 +44,7 @@ export default function Hero() {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&h=800"
+                src={imgg}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

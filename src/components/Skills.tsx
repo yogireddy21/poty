@@ -6,8 +6,8 @@ import {
   Server,
   Smartphone,
   GitBranch,
-  Terminal,
-  Cloud
+  BrainCircuit,
+
 } from 'lucide-react';
 
 interface Skill {
@@ -20,11 +20,10 @@ interface Skill {
 const skills: Skill[] = [
   { name: 'Frontend Development', icon: <Layout />, level: 90, category: 'Development' },
   { name: 'Backend Development', icon: <Server />, level: 85, category: 'Development' },
-  { name: 'Database Management', icon: <Database />, level: 80, category: 'Development' },
-  { name: 'Mobile Development', icon: <Smartphone />, level: 75, category: 'Development' },
+  { name: 'Database Management', icon: <Database />, level: 85, category: 'Development' },
+  { name: 'Operating Systems', icon: <Smartphone />, level: 80, category: 'Development' },
   { name: 'Version Control', icon: <GitBranch />, level: 95, category: 'Tools' },
-  { name: 'Cloud Services', icon: <Cloud />, level: 70, category: 'Tools' },
-  { name: 'Command Line', icon: <Terminal />, level: 85, category: 'Tools' },
+  { name: 'Machine Learning', icon: <BrainCircuit />, level: 80, category: 'Development' },
   { name: 'Problem Solving', icon: <Code2 />, level: 90, category: 'Soft Skills' }
 ];
 
