@@ -24,7 +24,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1CPbW49az6QmQN1aX9f1pEnHFoXf1dL2C/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1tlvKPuGSymYoUCeeWmyWcB21yQ2BWm4t/view?usp=sharing"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
               Download CV
@@ -37,7 +37,7 @@ export default function Hero() {
             <a href="https://www.linkedin.com/in/yogeswar-reddy-rachamallu-97550826b/" className="social-link">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="https://drive.google.com/file/d/1CPbW49az6QmQN1aX9f1pEnHFoXf1dL2C/view?usp=drive_link" className="social-link">
+            <a href="https://drive.google.com/file/d/1tlvKPuGSymYoUCeeWmyWcB21yQ2BWm4t/view?usp=sharing" className="social-link">
               <FileText className="w-6 h-6" />
             </a>
           </div>
