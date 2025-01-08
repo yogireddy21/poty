@@ -14,7 +14,7 @@ const profiles: Profile[] = [
     platform: "LeetCode",
     description: "Achieved Knight badge with a rating of 1880+ and solved over 900 problems. Specialized in algorithms, data structures, and competitive programming.",
     image: leetcodeLogo,
-    profileLink: "https://leetcode.com/u/yogi_21"
+    profileLink: "https://leetcode.com/u/yogireddy21/"
   },
   {
     platform: "Codeforces",
